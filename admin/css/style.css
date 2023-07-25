@@ -1,0 +1,34 @@
+.img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.row {
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    min-height: auto !important;
+}
+
+.row div {
+    border: 1px solid #ccc;
+}
+
+.d-flex {
+    justify-content: center;
+}
+
+.pagination1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination a {
+    font-size: 1.25rem;
+    color: brown;
+    padding: 0 10px;
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid brown;
+}
